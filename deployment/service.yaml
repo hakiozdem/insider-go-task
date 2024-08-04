@@ -8,8 +8,7 @@ metadata:
 spec:
   selector:
     app: go-app
-  type: NodePort
+  type: ClusterIPP
   ports:
-  - port: 3000
+  - port: 80
     targetPort: 3000
-    nodePort: 32756
